@@ -1,6 +1,5 @@
 package org.innopolis.javaEE.aureg.controller;
 
-import org.innopolis.javaEE.aureg.forms.ErrorMessage;
 import org.innopolis.javaEE.aureg.forms.LoginForm;
 import org.innopolis.javaEE.aureg.services.impl.LoginServiceImpl;
 import org.innopolis.javaEE.aureg.services.impl.RegisterServiceImpl;
@@ -15,7 +14,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 

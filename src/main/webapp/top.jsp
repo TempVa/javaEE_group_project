@@ -12,10 +12,14 @@
 </head>
 <body>
 <table>
+    <tr>
+        <td>Rank</td>
+        <td>Name</td>
+    </tr>
 <c:forEach items="${list}" var="user">
     <tr>
-        <td><c:out value="${user.name}"/></td>
         <td><c:out value="${user.rank}"/></td>
+        <td><c:out value="${user.username}"/></td>
     </tr>
 </c:forEach>
 </table>
